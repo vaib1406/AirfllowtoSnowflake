@@ -39,11 +39,11 @@ with DAG('create_insert_table',
             task_id = "insert_into_snowflake",
             snowflake_conn_id = "conn_id_snowflake",
             sql = '''insert into student(student_id,fname,lname,email,subject,score)
-                        values(1,'Hansraj','Raghuvansi', 'hansraj.raghuvansi@schooldomain.com', 'Hindi', 95),
-                        (2,'Vaibhav','Verma', 'vaibhav.verma@schooldomain.com', 'Computer', 90),
-                        (3,'Satyam','Rajput', 'satyam.rajput@schooldomain.com', 'English', 80),
-                        (4,'Chetan','Bargali', 'chetan.bargali@schooldomain.com', 'Mathematics', 94),
-                        (5,'Mohit','Mehra', 'mohit.mehra@schooldomain.com', 'Biology', 75)
+                        values(1,'Maria','Flora', 'Maria.Flora@schooldomain.com', 'Hindi', 95),
+                        (2,'James','Jones', 'James.Jones@schooldomain.com', 'Computer', 90),
+                        (3,'Kayla','Carlson', 'Kayla.Carlson@schooldomain.com', 'English', 80),
+                        (4,'Holly','Chauffe', 'Holly.Chauffe@schooldomain.com', 'Mathematics', 94),
+                        (5,'Anthony','Ramos', 'Anthony.Ramos@schooldomain.com', 'Biology', 75)
 
                   '''
         )
